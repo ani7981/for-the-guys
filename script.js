@@ -2,7 +2,7 @@ const noButton = document.getElementById('noBtn');
 
 let hoverCount=0;
 
-noButton.addEventListener('mouseenter', function() {
+noButton.addEventListener('mouseover', function() {
     hoverCount++;
 
     if(hoverCount>=5){
@@ -23,6 +23,8 @@ noButton.addEventListener('mouseenter', function() {
         // Apply BOTH coordinates with 'px' attached
         noButton.style.left = randomX + 'px';
         noButton.style.top = randomY + 'px';
+
     }
 
 });
+
